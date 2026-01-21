@@ -9,7 +9,9 @@ body {
 }
 
 .konten-atas h1 {
-  color: white;!importnan;
+  color: #ffffff !important;
+  font-size: 28px;
+    text-align: center;
   height: 100vh; 
   display: flex;
   flex-direction: column;
@@ -78,6 +80,7 @@ body {
   color: #888;
   font-size: 16px;
 }
+
 
 
 
