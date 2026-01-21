@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Warna gelap biar pro */
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.konten-atas {
+  height: 100vh; /* Setinggi layar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+}
+
+.konten-bawah {
+  height: 50vh;
+}
+
+.glowing-button {
+  /* Hilangin garis bawah & styling dasar */
+  text-decoration: none;
+  display: inline-block;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  
+  /* Warna Gradasi */
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(37, 117, 252, 0.3);
+  transition: all 0.4s ease;
+  animation: munculPelan 1.5s ease-out;
+}
+.glowing-button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 25px rgba(37, 117, 252, 0.7);
+  filter: brightness(1.1);
+}
+@keyframes munculPelan {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); /* Muncul dari bawah banget */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,10 @@
+<div class="konten-atas">
+  <h1>muka lu macam kontol.</h1>
+  <p>Liat efek animasinya pas tombolnya muncul.</p>
+</div>
+
+<a href="https://docs.google.com/document/d/1aUkcY6VQAB1x5S3jUTFZfgbVF94LQuTEDakPp6_m-w/edit?usp=drive_link" target="_blank" class="glowing-button">
+  <i class="fab fa-google-drive"></i> Buka Google Drive Gue
+</a>
+
+<div class="konten-bawah"></div>
