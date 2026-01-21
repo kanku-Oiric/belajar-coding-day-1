@@ -9,7 +9,8 @@ body {
 }
 
 .konten-atas h1 {
-  height: 100vh; /* Setinggi layar */
+  color: white; !importnan;
+  height: 100vh; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,6 +78,7 @@ body {
   color: #888;
   font-size: 16px;
 }
+
 
 
 
